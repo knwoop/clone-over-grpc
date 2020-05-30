@@ -1,1 +1,1 @@
-# git-remote-grpc
+# clone-over-grpc
