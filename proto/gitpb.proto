@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+import "google/protobuf/empty.proto";
+
+package proto;
+
+service Git {
+  rpc Connect (stream Data) returns (stream Data);
+}
+
+message Data {
+    bytes data = 1;
+}
+
